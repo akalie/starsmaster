@@ -38,8 +38,6 @@
 					</div>
 				</div><br/><br/><br/><br/><br/><br/>
 				<div class=phone>
-					Наш телефон<br/>
-					(499) 704-39-82
 				</div>
 			</div>
 		</div>
