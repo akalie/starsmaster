@@ -11,10 +11,15 @@
 	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 	<script src="js/jquery.countdown.js" type="text/javascript"></script>
 	<script src="js/main.js" type="text/javascript"></script>
+    <LINK rel="icon" href="images/favicon.png" type="image/x-icon">
 </head>
 <body>
 	<div class=wrapper>
 		<div class=header>
+            <div class=phone>
+                <!--Наш телефон<br/>
+                (499) 704-39-82-->
+            </div>
 			<div class=main>
 				<div class=htext>
 					<img src="images/logo.png" /><br/>
@@ -37,7 +42,6 @@
 						<br/>
 					</div>
 				</div><br/><br/><br/><br/><br/><br/>
-				<div class=phone>
 				</div>
 			</div>
 		</div>
