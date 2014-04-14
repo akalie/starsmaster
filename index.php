@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Ночник проектор звездного неба Star Master</title>
+	<title>Ночник - проектор звездного неба Star Master</title>
 	<link media="all" rel="stylesheet" type="text/css" href="css/style.css" />
 	<link media="all" rel="stylesheet" type="text/css" href="css/jquery.countdown.css" />
 	<link media="all" rel="stylesheet" type="text/css" href="css/gallery.css" />
