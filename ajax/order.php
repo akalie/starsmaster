@@ -3,7 +3,7 @@
 $fio = $_POST['fio'];
 $email = $_POST['email'];
 $tel = $_POST['tel'];
-$adminEmail = 'evgeeek@gmail.com';
+$adminEmail = 'a.krylov@topface.com';
 
 $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
