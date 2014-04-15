@@ -15,6 +15,10 @@
 <body>
 	<div class=wrapper>
 		<div class=header>
+            <div class=phone>
+                Наш телефон<br/>
+                (499) 704-39-82
+            </div>
 			<div class=main>
 				<div class=htext>
 					<img src="images/logo.png" /><br/>

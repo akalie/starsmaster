@@ -62,16 +62,17 @@ height:200px;
 padding-top:40px;
 }
 
-.phone{
-margin-left: 115px;
-margin-top: 580px;
-position:absolute;
-color:#00529e;
-font-size:24px;
-font-family:Tahoma,Myriad Pro;
-font-weight:bolder;
-font-style:italic;
-text-transform:uppercase;
+.phone {
+    padding: 50px 50px;
+    color: yellow;
+    font-size: 24px;
+    font-family: Tahoma,Myriad Pro;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: uppercase;
+    position: absolute;
+    right: 0;
+    z-index: 5;
 }
 .banner{
 float:left;
