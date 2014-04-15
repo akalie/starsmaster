@@ -6,7 +6,7 @@ $(function(){
 		newYear = true;
 	
 	if((new Date()) > ts){
-		ts = (new Date()).getTime() + 10*24*60*60*1000;
+		ts = (new Date()).getTime() + 2*24*60*60*1000;
 		newYear = false;
 	}
 		
