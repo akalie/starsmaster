@@ -4,20 +4,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Ночник проектор звездного неба Star Master</title>
+	<title>Ночник - проектор звездного неба Star Master</title>
 	<link media="all" rel="stylesheet" type="text/css" href="css/style.css" />
 	<link media="all" rel="stylesheet" type="text/css" href="css/jquery.countdown.css" />
 	<link media="all" rel="stylesheet" type="text/css" href="css/gallery.css" />
 	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 	<script src="js/jquery.countdown.js" type="text/javascript"></script>
 	<script src="js/main.js" type="text/javascript"></script>
+    <LINK rel="icon" href="images/favicon.png" type="image/x-icon">
 </head>
 <body>
 	<div class=wrapper>
 		<div class=header>
             <div class=phone>
-                Наш телефон<br/>
-                (499) 704-39-82
+                <!--Наш телефон<br/>
+                (499) 704-39-82-->
             </div>
 			<div class=main>
 				<div class=htext>
@@ -41,7 +42,6 @@
 						<br/>
 					</div>
 				</div><br/><br/><br/><br/><br/><br/>
-				<div class=phone>
 				</div>
 			</div>
 		</div>
@@ -323,5 +323,39 @@
 		<p>Спасибо! Ваш заказ принят и будет исполнен в ближайшее время!</p>
 	</div>
 	<div id="scroller" class="b-top" style="display: none;"><span class="b-top-but"></span></div>
+   <div class="metrics" style="display: none">
+        <a href="https://metrika.yandex.ru/stat/?id=24618374&amp;from=informer"
+           target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/24618374/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
+                                               style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:24618374,lang:'ru'});return false}catch(e){}"/></a>
+        <!-- /Yandex.Metrika informer -->
+
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript">
+            (function (d, w, c) {
+                (w[c] = w[c] || []).push(function() {
+                    try {
+                        w.yaCounter24618374 = new Ya.Metrika({id:24618374,
+                            webvisor:true,
+                            clickmap:true,
+                            trackLinks:true,
+                            accurateTrackBounce:true});
+                    } catch(e) { }
+                });
+
+                var n = d.getElementsByTagName("script")[0],
+                    s = d.createElement("script"),
+                    f = function () { n.parentNode.insertBefore(s, n); };
+                s.type = "text/javascript";
+                s.async = true;
+                s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+                if (w.opera == "[object Opera]") {
+                    d.addEventListener("DOMContentLoaded", f, false);
+                } else { f(); }
+            })(document, window, "yandex_metrika_callbacks");
+        </script>
+        <noscript><div><img src="//mc.yandex.ru/watch/24618374" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+   </div>
 </body>
 </html>
