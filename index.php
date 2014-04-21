@@ -324,7 +324,7 @@
 	</div>
 	<div id="suc_order" class="modal_window"> 
 		<div class="close"></div>
-		<p>Мы отправили на ваш email письмо с данными заказа, если вы его там не нашли - посмотрите в спаме.</p>
+		<p>Мы отправили на ваш e-mail письмо с данными заказа. Если оно долго не приходит - попробуйте проверить папку "Спам".</p>
 	</div>
 	<div id="scroller" class="b-top" style="display: none;"><span class="b-top-but"></span></div>
    <div class="metrics" style="display: none">
