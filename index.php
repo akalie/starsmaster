@@ -155,7 +155,7 @@
 		</div>
 		<div class=reviews>
 			<div class=main>
-				<h1>Отзывы наших счатсливых клиентов</h1>
+				<h1>Отзывы наших счастливых клиентов</h1>
 				<div class=review>
 					<div class=avatar><img src="images/ava-1.jpg"/></div>
 					<div class=rtext>
