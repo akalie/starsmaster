@@ -17,7 +17,7 @@ $tel = $_POST['tel'];
 $adress = $_POST['adress'];
 $kolvo = $_POST['kolvo'];
 
-$adminEmail = 'a.krylov@topface.com';
+$adminEmail = 'starsmaster@allsocial.ru';
 
 $mess = "Новый заказ StarMaster. <br/>ФИО: ".$fio."<br/>"."E-mail: ".$email."<br/>"."<br/>Телефон: ".$tel."<br/>Адрес: ".$adress;
 
