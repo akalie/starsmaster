@@ -21,7 +21,7 @@ $adminEmail = 'starsmaster@allsocial.ru';
 
 $mess = "Новый заказ StarMaster. <br/>ФИО: ".$fio."<br/>"."E-mail: ".$email."<br/>"."<br/>Телефон: ".$tel."<br/>Адрес: ".$adress;
 
-SendMail($adminEmail, 'Новый заказ', $mess);
+SendMail($adminEmail, 'Новый заказ StarMaster', $mess);
 
 $mess = <<<HDO
 Уважаемый $fio <br/>
