@@ -39,7 +39,7 @@
 						<input name=tel type=text sval="Телефон" value="Телефон"/>
 						<input name=adress type=text sval="Адрес (индекс, город и т. д.)" value="Адрес (индекс, город и т. д.)"/>
 						<input name=kolvo type=text sval="Количество" value="Количество"/>
-						<button class="buy">КУПИТЬ</button>
+						<button class="buy" id="buy1">КУПИТЬ</button>
 						</form>
 						<br/>
 					</div>
@@ -120,7 +120,7 @@
 					</div>
 				</div>
 				<div class=clear></div><br/>
-				<center><a href="#buy"><button class=bynow>Купить сейчас</button></a></center>
+				<center><a href="#buy"><button class=bynow id="buy2">Купить сейчас</button></a></center>
 			</div>
 		</div>
 		<div class=benefits>
@@ -150,7 +150,7 @@
 					<div class=clear></div>
  				</div>
 				<br/>
-				<center><a href="#buy"><button class=bynow>Купить сейчас</button></a></center>
+				<center><a href="#buy" id="buy3"><button class=bynow>Купить сейчас</button></a></center>
 			</div>
 		</div>
 		<div class=reviews>
@@ -315,7 +315,7 @@
 				<input name=tel type=text sval="Телефон" value="Телефон" />
 				<input name=adress type=text sval="Адрес (индекс, город и т. д.)" value="Адрес (индекс, город и т. д.)"/>
 				<input name=kolvo type=text sval="Количество" value="Количество"/><br/>
-				<button class="buy">Купить сейчас</button>
+				<button class="buy" id="buy4">Купить сейчас</button>
 				</form>
 				</center>
 			</div>
