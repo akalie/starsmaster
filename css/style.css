@@ -76,7 +76,7 @@ z-index:5;
 }
 .banner{
 float:left;
-margin-left: 330px;
+margin-left: 380px;
 margin-top: 10px;
 }
 
@@ -87,14 +87,14 @@ display:block;
 font-family:Tahoma,Myriad Pro;
 font-style:italic;
 text-transform:uppercase;
-font-size:20px;
+font-size:16px;
 color:#00529e;
 }
 
 .timer{
 float:left;
 background:#ccc;
-margin-top:30px;
+margin-top:20px;
 padding-top:16px;
 padding-bottom:16px;
 color:#3f3f3f;
@@ -340,7 +340,7 @@ clear:both;
 }
 
 .block-exclusive{
-height:424px;
+height:517px;
 background:url(../images/shadow.png) bottom no-repeat;
 position:absolute;
 margin-top:240px;
@@ -416,7 +416,7 @@ height:370px;
 }
 
 .footer h1 {
-padding-top:40px;
+padding-top:20px;
 margin:0;
 color:white;
 font-weight:bolder;
@@ -433,7 +433,7 @@ margin-left:20px;
 }
 
 .footer button{
-margin-top:30px;
+margin-top:20px;
 padding:7px 40px 7px 40px;
 color:white;
 font-weight:bolder;

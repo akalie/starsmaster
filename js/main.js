@@ -50,8 +50,10 @@ $(function(){
 	$(".sval-form > input").bind("focus", function(e){
 		var sval = $(this).attr("sval");
 		var val = $(this).val();
-
-		if(val==sval)
+			
+		if($(this).attr('name')=='kolvo' && val==sval)
+			$(this).val('1');
+		else if(val==sval)
 			$(this).val('');
 	});
 	
@@ -67,7 +69,7 @@ $(function(){
 	    var form = $(this).parent();
 		var err = false;
 		form.find('input').each(function(){
-			if($(this).val()=="" || $(this).val()==$(this).attr('sval'))
+			if($(this).attr('name')!="kolvo" && ($(this).val()=="" || $(this).val()==$(this).attr('sval')))
 			{
 				alert("Заполните все поля!");
 				err = true;
@@ -80,10 +82,14 @@ $(function(){
 		var fio = form.find('input[name="fio"]').val();
 		var email = form.find('input[name="email"]').val();
 		var tel = form.find('input[name="tel"]').val();
+		var adress = form.find('input[name="adress"]').val();
+		var kolvo = form.find('input[name="kolvo"]').val();
+		if(kolvo=="Количество")
+			kolvo = 1;
 		$.ajax({
 			type: "POST",
 			url: "ajax/order.php",
-			data: "fio="+fio+"&email="+email+"&tel="+tel,
+			data: "fio="+fio+"&email="+email+"&tel="+tel+"&adress="+adress+"&kolvo="+kolvo,
 			success: function(response){
 				openModal('suc_order');
 				$('#scroller').click();

@@ -17,14 +17,14 @@
 	<div class=wrapper>
 		<div class=header>
             <div class=phone>
-                Наш телефон<br/>
+                Наш телефон<br/><br/>
                 +7(909)588-64-58
             </div>
 			<div class=main>
 				<div class=htext>
 					<img src="images/logo.png" /><br/>
 					Популярный хит сезона — ночник-проектор настоящего,<br/>
-					натуральнного звездного неба "Star-Master" по специальной<br/>
+					натурального звездного неба "Star-Master" по специальной<br/>
 					самой низкой цене в интернете!
 				</div>
 				<div class=himg><img src="images/starmaster.png" /></div>
@@ -37,7 +37,9 @@
 						<input name=fio type=text sval="ФИО" value="ФИО"/>
 						<input name=email type=text sval="E-mail" value="E-mail"/>
 						<input name=tel type=text sval="Телефон" value="Телефон"/>
-						<button class="buy">КУПИТЬ</button>
+						<input name=adress type=text sval="Адрес (индекс, город и т. д.)" value="Адрес (индекс, город и т. д.)"/>
+						<input name=kolvo type=text sval="Количество" value="Количество"/>
+						<button class="buy" id="buy1">КУПИТЬ</button>
 						</form>
 						<br/>
 					</div>
@@ -118,7 +120,7 @@
 					</div>
 				</div>
 				<div class=clear></div><br/>
-				<center><a href="#buy"><button class=bynow>Купить сейчас</button></a></center>
+				<center><a href="#buy"><button class=bynow id="buy2">Купить сейчас</button></a></center>
 			</div>
 		</div>
 		<div class=benefits>
@@ -148,12 +150,12 @@
 					<div class=clear></div>
  				</div>
 				<br/>
-				<center><a href="#buy"><button class=bynow>Купить сейчас</button></a></center>
+				<center><a href="#buy" id="buy3"><button class=bynow>Купить сейчас</button></a></center>
 			</div>
 		</div>
 		<div class=reviews>
 			<div class=main>
-				<h1>Отзывы наших счатсливых клиентов</h1>
+				<h1>Отзывы наших счастливых клиентов</h1>
 				<div class=review>
 					<div class=avatar><img src="images/ava-1.jpg"/></div>
 					<div class=rtext>
@@ -310,8 +312,10 @@
 				<form class=sval-form method=POST>
 				<input name=fio type=text sval="ФИО" value="ФИО" />
 				<input name=email type=text sval="E-mail" value="E-mail"/>
-				<input name=tel type=text sval="Телефон" value="Телефон" /><br/>
-				<button class="buy">Купить сейчас</button>
+				<input name=tel type=text sval="Телефон" value="Телефон" />
+				<input name=adress type=text sval="Адрес (индекс, город и т. д.)" value="Адрес (индекс, город и т. д.)"/>
+				<input name=kolvo type=text sval="Количество" value="Количество"/><br/>
+				<button class="buy" id="buy4">Купить сейчас</button>
 				</form>
 				</center>
 			</div>
@@ -320,7 +324,7 @@
 	</div>
 	<div id="suc_order" class="modal_window"> 
 		<div class="close"></div>
-		<p>Спасибо! Ваш заказ принят и будет исполнен в ближайшее время!</p>
+		<p>Мы отправили на ваш e-mail письмо с данными заказа. Если оно долго не приходит - попробуйте проверить папку "Спам".</p>
 	</div>
 	<div id="scroller" class="b-top" style="display: none;"><span class="b-top-but"></span></div>
    <div class="metrics" style="display: none">
