@@ -78,7 +78,7 @@ $(function(){
 		});
 		if(err)
 			return false;
-        console.log(yaCounter24618374.reachGoal('buy1'));f
+        console.log(yaCounter24618374.reachGoal('buy1'));
 		var fio = form.find('input[name="fio"]').val();
 		var email = form.find('input[name="email"]').val();
 		var tel = form.find('input[name="tel"]').val();
