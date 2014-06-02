@@ -16,10 +16,6 @@
 <body>
 	<div class=wrapper>
 		<div class=header>
-            <div class=phone>
-                Наш телефон<br/><br/>
-                +7(909)588-64-58
-            </div>
 			<div class=main>
 				<div class=htext>
 					<img src="images/logo.png" /><br/>
@@ -36,9 +32,8 @@
 						<form class=sval-form method=POST>
 						<input name=fio type=text sval="ФИО" value="ФИО"/>
 						<input name=email type=text sval="E-mail" value="E-mail"/>
-						<input name=tel type=text sval="Телефон" value="Телефон"/>
+						<input id="tel" name=tel type=text sval="+7(___) ___-__-__" value="+7(___) ___-__-__"/>
 						<input name=adress type=text sval="Адрес (индекс, город и т. д.)" value="Адрес (индекс, город и т. д.)"/>
-						<input name=kolvo type=text sval="Количество" value="Количество"/>
 						<button class="buy" id="buy1">КУПИТЬ</button>
 						</form>
 						<br/>
@@ -99,7 +94,7 @@
 			<div class=main>
 				<h1>Что такое StarMaster?</h1>
 				<div class=video>
-					<iframe src="http://vk.com/video_ext.php?oid=-50633746&id=168036060&hash=4c4844a965417e95&hd=1" width="449" height="264" frameborder="0"></iframe>
+					<iframe src="http://vk.com/video_ext.php?oid=246376291&id=168072329&hash=8f68dc8cfcaa9f15&hd=1" width="449" height="264" frameborder="0"></iframe>
 				</div>
 				<div class=info>
 					Чтобы увидеть звезды не обязательно посещать планетарий, астрономическую обсерваторию, 
@@ -312,9 +307,8 @@
 				<form class=sval-form method=POST>
 				<input name=fio type=text sval="ФИО" value="ФИО" />
 				<input name=email type=text sval="E-mail" value="E-mail"/>
-				<input name=tel type=text sval="Телефон" value="Телефон" />
-				<input name=adress type=text sval="Адрес (индекс, город и т. д.)" value="Адрес (индекс, город и т. д.)"/>
-				<input name=kolvo type=text sval="Количество" value="Количество"/><br/>
+				<input id="tel2" name=tel type=text sval="+7(___) ___-__-__" value="+7(___) ___-__-__"/>
+				<input name=adress type=text sval="Адрес (индекс, город и т. д.)" value="Адрес (индекс, город и т. д.)"/><br/>
 				<button class="buy" id="buy4">Купить сейчас</button>
 				</form>
 				</center>
