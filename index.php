@@ -34,8 +34,8 @@
 						<input name=email type=text sval="E-mail" value="E-mail"/>
 						<input id="tel" name=tel type=text sval="+7(___) ___-__-__" value="+7(___) ___-__-__"/>
 						<input name=adress type=text sval="Адрес (индекс, город и т. д.)" value="Адрес (индекс, город и т. д.)"/>
-                            <button class="buy">КУПИТЬ</button>
-						</form>
+                        <button class="buy">КУПИТЬ</button>
+		   		</form>
 						<br/>
 					</div>
 				</div><br/><br/><br/><br/><br/><br/>
