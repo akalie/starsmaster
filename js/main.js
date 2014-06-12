@@ -23,7 +23,7 @@ $(function(){
 	
 	});
 	var $gallery=$('.gallery');
-						
+
 	$.each($gallery, function( no_, gallery_ ) {
 		var $gallery_container=$('.gallery_container',gallery_);
 		var $gallery_thumbnail=$('.gallery_thumbnail',gallery_);
@@ -34,15 +34,15 @@ $(function(){
 				$('.gallery_thumbnail',$(this).parent()).removeClass('active');
 				$(this).addClass('active');
 				$newimg=$("<img src="+$('img',this).attr('src')+" class='gallery_main animation'>");
-									
+
 				$gallery_container.append($newimg);
 				var wait = window.setTimeout( function(){
 					$newimg.addClass('in');
 					},300);
-			});									  		
+			});
 		});
 	});
-	
+
 	$('a[href*=#]').bind("click", function(e){
       var anchor = $(this);
       $('html, body').stop().animate({
@@ -73,39 +73,49 @@ $(function(){
 			$(this).val(sval);
 	});
 	
-	$(".buy").bind("click", function(e){
+	$(".sval-form").bind("submit", function(e){
 	    var form = $(this).parent();
 		var err = false;
+
 		form.find('input').each(function(){
 			if($(this).attr('name')!="kolvo" && ($(this).val()=="" || $(this).val()==$(this).attr('sval')))
 			{
-				alert("Заполните все поля!");
 				err = true;
 				return false;
 			}
 		});
-		if(err)
-			return false;
+
+		if (err) {
+            alert("Заполните все поля!");
+            e.preventDefault();
+            return false;
+        }
         console.log(yaCounter24618374.reachGoal('buy1'));
 		var fio = form.find('input[name="fio"]').val();
 		var email = form.find('input[name="email"]').val();
 		var tel = form.find('input[name="tel"]').val();
 		var adress = form.find('input[name="adress"]').val();
 		var kolvo = form.find('input[name="kolvo"]').val();
-		if(kolvo=="Количество")
+
+        if (kolvo=="Количество") {
 			kolvo = 1;
-		$.ajax({
-			type: "POST",
-			url: "ajax/order.php",
-			data: "fio="+fio+"&email="+email+"&tel="+tel+"&adress="+adress+"&kolvo="+kolvo,
-			success: function(response){
-				openModal('suc_order');
-				$('#scroller').click();
-			}
-		});
-		return false;
+        }
+
+        form.find('input[name="kolvo"]').val(kolvo);
+
+        //Все заебебца отправляем и сбрасываем
+        setTimeout(function () {
+            form.find('input').each(function () {
+                var $e = $(this);
+
+                $e.val($e.attr('sval'));
+            });
+        }, 500);
+
+        window.open('', 'stars', 'top=200,left=200,width=450,height=300,resizable=yes,scrollbars=yes');
+		return true;
 	});
-	
+
 });
 
 function showRev(obj){
