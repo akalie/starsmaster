@@ -47,7 +47,7 @@ fclose($handle);
 
 SendMail($adminEmail, 'Новый заказ StarMaster', $mess);
 
-$data = Api::pack(5, 'Hu^Ngm8iyTkbL8B2GxZItS4tPb5ow5QlyT6)h)iauhamrP4tQLNT=VS@ekaJ^2^m', 1, 1, $email, $phone, '', 'покупаем хузло', $adress);
+$data = Api::pack(5, 'bnnp0F=P=B7Sf%P$&XfKT(&pUJCHridLSdT=p9pHJgUCesHnt3-TUyKGpKOhNR-e', 1, 1, $email, $phone, '', 'покупаем хузло', $adress);
 Api::doPostRequest($data);
 
 
